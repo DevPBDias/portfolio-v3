@@ -7,6 +7,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     font-size: 16px;
+    background-color: #0E1F31;
+    color: #F3ECF0;
     /* border: 1px solid red; */
   }
 `;
