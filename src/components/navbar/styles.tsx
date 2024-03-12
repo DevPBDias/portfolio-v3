@@ -6,15 +6,17 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-items: center;
+    padding-inline: 10%;
+    border-bottom: 1px solid red;
 `;
 
 export const NavbarContainer = styled.nav`
-    width: 50%;
-    margin-left: 50%;
+    margin-left: 65%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     justify-items: center;
+    gap: 3em;
 
     .links {
         font-size: 1.5rem;
