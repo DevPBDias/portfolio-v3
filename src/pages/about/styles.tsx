@@ -17,6 +17,11 @@ export const Section = styled.section`
     align-items: flex-start;
     justify-items: center;
     gap: 3em;
+
+    @media screen and (max-width: 950px){
+        flex-flow: column nowrap;
+        align-items: center;
+    }
 `;
 
 export const TextContainer = styled.div`
@@ -49,6 +54,33 @@ export const TextContainer = styled.div`
         color: #1C8CDF;
         font-weight: 600;
     }
+
+    @media screen and (max-width: 950px){
+        width: 100%;
+
+        h4 {
+            font-size: 2.2rem;
+        }
+
+        h6 {
+            font-size: 1.3rem;
+        }
+    }
+
+
+    @media screen and (max-width: 550px){
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        h6 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: .8rem;
+        }
+    }
 `;
 
 export const IconContainer = styled.div`
@@ -79,6 +111,30 @@ export const IconContainer = styled.div`
             font-weight: 600;
             text-align: center;
         }
+    }
+
+    @media screen and (max-width: 950px){
+        gap: 1.5em;
+
+        .icon_content {
+            width: 5em;
+            height: 5em;
+        }
+
+    }
+
+    @media screen and (max-width: 550px){
+        gap: 1.5em;
+
+        .icon_content {
+            width: 4em;
+            height: 4em;
+
+            p {
+                font-size: .8rem;
+            }
+        }
+
     }
 
 `;

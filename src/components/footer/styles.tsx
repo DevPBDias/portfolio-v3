@@ -8,6 +8,7 @@ export const FooterContainer = styled.footer`
     justify-items: center;
     justify-content: center;
     padding-inline: 10%;
+    gap: 2em;
 
     @media screen and (max-width: 750px){
         flex-flow: column-reverse nowrap;
@@ -24,7 +25,7 @@ export const TextContainer = styled.div`
     align-items: center;
     justify-items: center;
 
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 850px){
         span {
             font-size: .8rem;
         }

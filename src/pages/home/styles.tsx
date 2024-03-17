@@ -33,6 +33,65 @@ export const TextContainer = styled.div`
     h3 {
         font-size: 3.5rem;
     }
+
+    @media screen and (max-width: 1300px){
+        p {
+            font-size: 1.4rem;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media screen and (max-width: 950px){
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 750px){
+        gap: .5em;
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 550px){
+            p {
+                font-size: .8rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+    }
 `;
 
 export const BtnsContainer = styled.div`
@@ -48,6 +107,7 @@ export const BtnsContainer = styled.div`
         font-size: 1.3rem;
         width: 10em;
         height: 2em;
+        padding: 0.5em;
         border-radius: 12px;
         border: none;
         background-color: #D0777D;
@@ -60,6 +120,14 @@ export const BtnsContainer = styled.div`
         &:hover {
             background-color: #1C8CDF;
             color: #F3ECF0;
+        }
+    }
+
+    @media screen and (max-width: 700px){
+        flex-flow: column nowrap;
+
+        a {
+            font-size: 1.1rem;
         }
     }
 `;

@@ -7,6 +7,26 @@ export const CardContainer = styled.section`
     flex-flow: column nowrap;
     border: 1px solid #F3ECF0;
     border-radius: 8px;
+
+    @media screen and (max-width: 1250px){
+        width: 25em;
+        height: 25em;
+    }
+
+    @media screen and (max-width: 1050px){
+        width: 20em;
+        height: 30em;
+    }
+
+    @media screen and (max-width: 850px){
+        width: 30em;
+        height: 30em;
+    }
+
+    @media screen and (max-width: 650px){
+        width: 100%;
+        height: 25em;
+    }
 `;
 
 export const TextContainer = styled.div`
@@ -63,6 +83,62 @@ export const TextContainer = styled.div`
             color: #F3ECF0;
         }
     }
+
+    @media screen and (max-width: 1250px){
+    .year {
+        font-size: .6rem;
+    }
+
+    h6 {
+            font-size: 1.2rem;
+        }
+
+        .main_txt_content {
+            p {
+                font-size: .8rem;
+            }
+        }
+            
+        a {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 850px){
+        .year {
+        font-size: .6rem;
+    }
+
+    h6 {
+            font-size: 1.5rem;
+        }
+
+        .main_txt_content {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 650px){
+        .year {
+        font-size: .6rem;
+    }
+
+    h6 {
+            font-size: 1.2rem;
+        }
+
+        .main_txt_content {
+            p {
+                font-size: .8rem;
+            }
+        }
+            
+        a {
+            font-size: .8rem;
+        }
+    }
 `;
 
 export const TechsContainer = styled.div`
@@ -77,6 +153,12 @@ export const TechsContainer = styled.div`
         background-color: #716968;
         padding: 0.3em;
         border-radius: 4px;
+    }
+
+    @media screen and (max-width: 1250px){
+        span {
+            font-size: .6rem;
+        }
     }
 `;
 
