@@ -44,7 +44,7 @@ export const BtnsContainer = styled.div`
     justify-items: center;
     gap: 4em;
 
-    button {
+    a {
         font-size: 1.3rem;
         width: 10em;
         height: 2em;
@@ -53,6 +53,9 @@ export const BtnsContainer = styled.div`
         background-color: #D0777D;
         color: #0A090A;
         font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         &:hover {
             background-color: #1C8CDF;

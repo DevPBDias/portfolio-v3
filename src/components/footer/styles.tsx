@@ -8,7 +8,6 @@ export const FooterContainer = styled.footer`
     justify-items: center;
     justify-content: center;
     padding-inline: 10%;
-    border-top: 1px solid red;
 `;
 
 export const TextContainer = styled.div`

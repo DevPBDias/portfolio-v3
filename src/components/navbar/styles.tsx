@@ -7,7 +7,6 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-items: center;
     padding-inline: 10%;
-    border-bottom: 1px solid red;
 `;
 
 export const NavbarContainer = styled.nav`
