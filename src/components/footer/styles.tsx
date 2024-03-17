@@ -8,26 +8,36 @@ export const FooterContainer = styled.footer`
     justify-items: center;
     justify-content: center;
     padding-inline: 10%;
+
+    @media screen and (max-width: 750px){
+        flex-flow: column-reverse nowrap;
+    }
+
+    @media screen and (max-width: 550px){
+    }
 `;
 
 export const TextContainer = styled.div`
-    width: 85%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-items: center;
 
-    span {
+    @media screen and (max-width: 750px){
+        span {
+            font-size: .8rem;
+        }
     }
 `;
 
 export const IconsContainer = styled.nav`
-    width: 10%;
     display: flex;
-    justify-content: space-around;
+    flex-flow: row nowrap;
+    justify-content: center;
     align-items: center;
     justify-items: center;
+    gap: 1em;
 
     .icons {
         width: 2.5em;
@@ -36,6 +46,13 @@ export const IconsContainer = styled.nav`
         img {
             width: 100%;
             height: 100%;
+        }
+    }
+
+    @media screen and (max-width: 550px){
+        .icons {
+            width: 2em;
+            height: 2em;
         }
     }
 `;

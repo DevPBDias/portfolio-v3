@@ -13,7 +13,7 @@ function Navbar() {
         <button
         type="button"
         onClick={ () => navigate('/contact')}
-        >Contact me!</button>
+        >Contact</button>
       </NavbarContainer>
     </HeaderContainer>
   )

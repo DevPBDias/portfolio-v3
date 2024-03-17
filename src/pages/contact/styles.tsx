@@ -10,6 +10,11 @@ export const ContactContainer = styled.main`
     justify-content: center;
     padding-inline: 10%;
     gap: 4em;
+
+    @media screen and (max-width: 850px){
+        flex-flow: column nowrap;
+        gap: 1em;
+    }
 `;
 
 export const TextContainer = styled.section`
@@ -29,6 +34,39 @@ export const TextContainer = styled.section`
     p {
         font-size: 2rem;
     }
+
+    @media screen and (max-width: 1350px){
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 850px){
+        width: 100%;
+        height: 30%;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media screen and (max-width: 550px){
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
 `;
 
 export const PhotoContainer = styled.section`
@@ -44,5 +82,25 @@ export const PhotoContainer = styled.section`
         width: 60%;
         height: 60%;
         border-radius: 100%;
+    }
+
+    @media screen and (max-width: 850px){
+        width: 100%;
+        height: 60%;
+
+        img {
+            width: 50%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (max-width: 550px){
+        width: 100%;
+        height: 50%;
+        
+        img {
+            width: 60%;
+            height: 100%;
+        }
     }
 `;

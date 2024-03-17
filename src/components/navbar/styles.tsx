@@ -10,7 +10,8 @@ export const HeaderContainer = styled.header`
 `;
 
 export const NavbarContainer = styled.nav`
-    margin-left: 65%;
+    width: 90%;
+    height: 10vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -24,9 +25,31 @@ export const NavbarContainer = styled.nav`
         &:hover {
             color: #1C8CDF;
         }
+
+
     }
 
     button {
+        font-size: 1.3rem;
+        padding: 0.5em;
+        border-radius: 12px;
+        border: none;
+        background-color: #D0777D;
+        color: #0A090A;
+        font-weight: 600;
+
+        &:hover {
+            background-color: #1C8CDF;
+            color: #F3ECF0;
+        }
+    }
+
+    @media screen and (max-width: 750px){
+        .links {
+            font-size: 1.2rem;
+        }
+
+        button {
         font-size: 1.3rem;
         width: 8em;
         height: 2em;
@@ -40,5 +63,23 @@ export const NavbarContainer = styled.nav`
             background-color: #1C8CDF;
             color: #F3ECF0;
         }
+    }
+
+        
+    }
+
+    @media screen and (max-width: 550px){
+        justify-content: center;
+        gap: 1em;
+        width: 100%;
+
+        button {
+        font-size: 1rem;
+        width: 6em;
+        height: 2em;
+        padding: 0.5em;
+        border-radius: 12px;
+    }
+
     }
 `;
