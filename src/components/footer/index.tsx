@@ -1,7 +1,7 @@
 import { FooterContainer, IconsContainer, TextContainer } from './styles'
 import { Link } from 'react-router-dom'
-import githubIcon from '../../assets/GitHub.png'
-import linkedInIcon from '../../assets/LinkedIn.png'
+import githubIcon from '../../assets/icons/GitHub.png'
+import linkedInIcon from '../../assets/icons/LinkedIn.png'
 
 
 function Footer() {

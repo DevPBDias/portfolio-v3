@@ -1,13 +1,13 @@
-import mongodbIcon from '../assets/MongoDB.png'
-import cssIcon from '../assets/CSS3.png'
-import hmtlIcon from '../assets/Html 5.png'
-import jsIcon from '../assets/JavaScript Logo.png'
-import nodeIcon from '../assets/Node Js.png'
-import tsIcon from '../assets/TypeScript.png'
-import reactIcon from '../assets/React.png'
-import styledIcon from '../assets/styled_components.webp'
-import figmaIcon from '../assets/figma.webp'
-import trelloIcon from '../assets/trello.webp'
+import mongodbIcon from '../assets/icons/MongoDB.png'
+import cssIcon from '../assets/icons/CSS3.png'
+import hmtlIcon from '../assets/icons/Html 5.png'
+import jsIcon from '../assets/icons/JavaScript Logo.png'
+import nodeIcon from '../assets/icons/Node Js.png'
+import tsIcon from '../assets/icons/TypeScript.png'
+import reactIcon from '../assets/icons/React.png'
+import styledIcon from '../assets/icons/styled_components.webp'
+import figmaIcon from '../assets/icons/figma.webp'
+import trelloIcon from '../assets/icons/trello.webp'
 
 export const iconsData = [
     {
@@ -60,6 +60,4 @@ export const iconsData = [
         image: trelloIcon,
         name: 'Trello'
     },
-
-
 ]
